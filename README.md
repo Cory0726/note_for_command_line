@@ -56,5 +56,7 @@ conda list your_keyword
 
 ## Linux
 ```bash
+lscpu
+
 sudo apt install ./your_software.deb
 ```
