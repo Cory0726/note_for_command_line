@@ -1,6 +1,10 @@
 # note_for_command_line
 My note for Commnad-line interface.
 
+- [git](#git)
+- [Anaconda](#anaconda)
+- [Linux](#linux)
+
 ## git
 ### [git install](https://git-scm.com/install/windows)
 ```bash
@@ -26,13 +30,10 @@ git fetch origin
 git reset --hard origin/your_branch
 git clean -fd
 ```
-# Anaconda_Note
-My notes for [Anaconda](https://anaconda.org/)
+---
 
-## Getting start
-- [Download Anaconda](https://www.anaconda.com/download/success)
-
-## Commonly command
+## [Anaconda](https://anaconda.org/)
+### [Download Anaconda](https://www.anaconda.com/download/success)
 ```bash
 # Environment
 conda env list
@@ -49,4 +50,11 @@ conda install your_package_name
 conda remove your_package_name
 conda list
 conda list your_keyword
+```
+
+---
+
+## Linux
+```bash
+sudo apt install ./your_software.deb
 ```
