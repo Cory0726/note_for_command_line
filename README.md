@@ -3,7 +3,6 @@ My note for Commnad-line interface.
 
 ## git
 ### [git install](https://git-scm.com/install/windows)
-### Common command
 ```bash
 git --version
 
@@ -26,4 +25,28 @@ git push origin your_branch
 git fetch origin
 git reset --hard origin/your_branch
 git clean -fd
+```
+# Anaconda_Note
+My notes for [Anaconda](https://anaconda.org/)
+
+## Getting start
+- [Download Anaconda](https://www.anaconda.com/download/success)
+
+## Commonly command
+```bash
+# Environment
+conda env list
+conda activate your_env_name
+conda deactivate
+
+conda export --file environment.yml
+conda env create -f environment.yml
+conda env update --file environment.yml --prune
+conda env remove -n your_env_name
+
+# Package
+conda install your_package_name
+conda remove your_package_name
+conda list
+conda list your_keyword
 ```
