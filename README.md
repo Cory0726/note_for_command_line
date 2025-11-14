@@ -56,7 +56,11 @@ conda list your_keyword
 
 ## Linux
 ```bash
+# CPU Info
 lscpu
 
+# apt
+sudo apt update
+sudo apt upgrade
 sudo apt install ./your_software.deb
 ```
