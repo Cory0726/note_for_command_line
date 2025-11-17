@@ -64,3 +64,7 @@ sudo apt update
 sudo apt upgrade
 sudo apt install ./your_software.deb
 ```
+## Nvidia
+```commandline
+nvidia-smi
+```
