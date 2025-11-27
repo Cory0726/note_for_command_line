@@ -37,30 +37,30 @@ git clean -fd
 ## [Anaconda](https://anaconda.org/)
 ### [Download Anaconda](https://www.anaconda.com/download/success)
 ### Command
-```bash
-# Environment
-conda env list
-conda activate <your_env_name>
-conda deactivate
-
-conda export --file environment.yml
-conda env create -f environment.yml
-conda env update --file environment.yml --prune
-conda env remove -n <your_env_name>
-
-# Package
-conda install <your_package_name>
-conda remove <your_package_name>
-conda list
-conda list <your_keyword>
-```
+  ```bash
+  # Environment
+  conda env list
+  conda activate <your_env_name>
+  conda deactivate
+  
+  conda export --file environment.yml
+  conda env create -f environment.yml
+  conda env update --file environment.yml --prune
+  conda env remove -n <your_env_name>
+  
+  # Package
+  conda install <your_package_name>
+  conda remove <your_package_name>
+  conda list
+  conda list <your_keyword>
+  ```
 ### Issue
 #### Error while loading conda entry point: conda-libmamba-solver (module 'libmambapy' has no attribute 'QueryFormat')
 - 開**Anaconda Prompt**
-```bash
-conda update conda
-conda update conda-libmamba-solver
-```
+  ```bash
+  conda update conda
+  conda update conda-libmamba-solver
+  ```
 ---
 
 ## Linux
