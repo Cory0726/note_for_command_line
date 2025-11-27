@@ -56,7 +56,7 @@ git clean -fd
   ```
 ### Issue
 #### Error while loading conda entry point: conda-libmamba-solver (module 'libmambapy' has no attribute 'QueryFormat')
-- 開**Anaconda Prompt**
+- 開 **Anaconda Prompt**，跑 : 
   ```bash
   conda update conda
   conda update conda-libmamba-solver
